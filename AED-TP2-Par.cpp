@@ -13,7 +13,7 @@ int main()
     cout << "------------------------------------------------------------\n";
 
     int a;
-    cout << "Ingrese un numero entero\n\n";
+    cout << "Ingrese un numero entero: \n\n";
     cin >> a;
     bool par = (!(a % 2) && (a != 0));
 
