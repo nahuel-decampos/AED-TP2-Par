@@ -15,7 +15,7 @@ int main()
     int a;
     cout << "Ingrese un numero entero\n\n";
     cin >> a;
-    bool par = !(a % 2);
+    bool par = (!(a % 2) && (a != 0));
 
     if (par)
         cout << "\nEl valor " << a << " es par \n\n";
